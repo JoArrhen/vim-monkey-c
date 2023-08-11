@@ -5,12 +5,16 @@ endif
 syntax region	monkeyCString		start=/\v"/ skip=/\v\\./ end=/\v"/
 syntax match	monkeyCCharacter	"L\='[^\\]'"
 syntax keyword	monkeyCBoolean		false true
-syntax keyword	monkeyCConditional	if else
+syntax keyword	monkeyCConditional	if else has instanceof switch
 syntax match	monkeyCInclude		"Toybox.\w\+"
-syntax keyword	monkeyCKeyword		using as extends
+syntax keyword	monkeyCKeyword		using as extends import
 syntax keyword	monkeyCStatement	new return continue hidden
-syntax keyword	monkeyCStorageClass	var const
-syntax keyword	monkeyCStructure	class function
+syntax keyword	monkeyCStorageClass	var const static public private protected enum
+syntax keyword	monkeyCStructure	class function interface module
+syntax keyword	monkeyCIdentifier	self me
+syntax keyword	monkeyCLabel	        case break default
+syntax keyword	monkeyCException	try catch finally throw
+syntax keyword	monkeyCRepeat           while for	
 
 syntax keyword	monkeyCType			Gfx System Lang Ui Timer Attention
 
@@ -48,7 +52,7 @@ highlight link	monkeyCKeyword		Keyword
 highlight link	monkeyCStatement	Statement
 highlight link	monkeyCStructure	Structure
 highlight link	monkeyCStorageClass	StorageClass
-highlight link	monkeyCType			Type
+highlight link	monkeyCType		Type
 highlight link	monkeyCConstant		Constant
 highlight link	monkeyCFunction		Function
 highlight link	monkeyCOperator		Operator
@@ -56,6 +60,9 @@ highlight link	monkeyCNumber		Number
 highlight link	monkeyCLabel		Label
 highlight link	monkeyCComment		Comment
 highlight link monkeyCMultiLineComment  Comment
+highlight link monkeyCIdentifier        Identifier
+highlight link monkeyCException         Exception
+highlight link monkeyCRepeat            Repeat
 
 let b:current_syntax = "monkey-c"
 
