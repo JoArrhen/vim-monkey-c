@@ -16,7 +16,13 @@ syntax keyword	monkeyCLabel	        case break default
 syntax keyword	monkeyCException	try catch finally throw
 syntax keyword	monkeyCRepeat           while for	
 
-syntax keyword	monkeyCType			Gfx System Lang Ui Timer Attention
+syntax keyword	monkeyCType		Gfx Ui
+syntax keyword	monkeyCType		Array Dictionary Number Float Long Double String Boolean Void
+syntax keyword monkeyCType              Activity ActivityMonitor ActivityRecording Ant AntPlus Application Attention Authentication
+syntax keyword monkeyCType              Background BluetoothLowEnergy Communications Complications Cryptography FitContributor Graphics
+syntax keyword monkeyCType              Lang Math Media PersistedContent PersistedLocations Position Sensor SensorHistory SensorLogging 
+syntax keyword monkeyCType              StringUtil System Test Time Timer UserProfile WatchUi Weather
+
 
 syntax keyword	monkeyCConstant		COLOR_WHITE COLOR_LT_GRAY COLOR_DK_GRAY COLOR_BLACK COLOR_RED COLOR_DK_RED COLOR_ORANGE COLOR_YELLOW COLOR_GREEN COLOR_DK_GREEN COLOR_BLUE COLOR_DK_BLUE COLOR_PURPLE COLOR_PINK COLOR_TRANSPARENT
 syntax keyword	monkeyCConstant		FONT_XTINY FONT_TINY FONT_SMALL FONT_MEDIUM FONT_LARGE FONT_NUMBER_MILD FONT_NUMBER_MEDIUM FONT_NUMBER_HOT FONT_NUMBER_THAI_HOT FONT_SYSTEM_XTINY FONT_SYSTEM_TINY FONT_SYSTEM_SMALL FONT_SYSTEM_MEDIUM FONT_SYSTEM_LARGE FONT_SYSTEM_NUMBER_MILD FONT_SYSTEM_NUMBER_MEDIUM FONT_SYSTEM_NUMBER_HOT FONT_SYSTEM_NUMBER_THAI_HOT
