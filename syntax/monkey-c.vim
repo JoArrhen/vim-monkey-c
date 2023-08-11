@@ -18,10 +18,72 @@ syntax keyword	monkeyCRepeat           while for
 
 syntax keyword	monkeyCType		Gfx Ui
 syntax keyword	monkeyCType		Array Dictionary Number Float Long Double String Boolean Void
-syntax keyword monkeyCType              Activity ActivityMonitor ActivityRecording Ant AntPlus Application Attention Authentication
-syntax keyword monkeyCType              Background BluetoothLowEnergy Communications Complications Cryptography FitContributor Graphics
-syntax keyword monkeyCType              Lang Math Media PersistedContent PersistedLocations Position Sensor SensorHistory SensorLogging 
-syntax keyword monkeyCType              StringUtil System Test Time Timer UserProfile WatchUi Weather
+
+" Toybox.* Classes
+syntax keyword  monkeyCType             Activity ActivityMonitor ActivityRecording Ant AntPlus Application Attention Authentication
+syntax keyword  monkeyCType             Background BluetoothLowEnergy Communications Complications Cryptography FitContributor Graphics
+syntax keyword  monkeyCType             Lang Math Media PersistedContent PersistedLocations Position Sensor SensorHistory SensorLogging 
+syntax keyword  monkeyCType             StringUtil System Test Time Timer UserProfile WatchUi Weather
+
+"Toybox.*.* Classes
+syntax keyword  monkeyCType             AccelerometerData ActionMenu ActionMenuDelegate ActionMenuItem ActiveContent
+syntax keyword  monkeyCType             ActiveMinutes AffineTransform AlbumArt AnimationDelegate AnimationLayer
+syntax keyword  monkeyCType             AnimationResource AntPlusNotAllowedException AppBase AppNotInstalledException
+syntax keyword  monkeyCType             Array AssertException AudioContentProviderApp AudioFormat
+syntax keyword  monkeyCType             BacklightOnTooLongException BatteryStatus BehaviorDelegate BikeCadence
+syntax keyword  monkeyCType             BikeCadenceInfo BikeCadenceListener BikeLight BikePower BikePowerListener
+syntax keyword  monkeyCType             BikeRadar BikeRadarListener BikeSpeed BikeSpeedCadence BikeSpeedCadenceInfo
+syntax keyword  monkeyCType             BikeSpeedCadenceListener BikeSpeedInfo BikeSpeedListener Bitmap
+syntax keyword  monkeyCType             BitmapReference BitmapResource BitmapTexture BleDelegate Boolean BoundingBox
+syntax keyword  monkeyCType             BufferedBitmap BufferedBitmapReference BurstListener BurstPayload
+syntax keyword  monkeyCType             BurstPayloadIterator Button ByteArray CacheStatistics CalculatedCadence
+syntax keyword  monkeyCType             CalculatedPower CalculatedWheelDistance CalculatedWheelSpeed ChannelAssignment
+syntax keyword  monkeyCType             Char Characteristic CheckboxMenu CheckboxMenuItem Cipher
+syntax keyword  monkeyCType             CipherBasedMessageAuthenticationCode ClickEvent ClockTime CommonData
+syntax keyword  monkeyCType             Complication ComplicationNotFoundException Confirmation ConfirmationDelegate
+syntax keyword  monkeyCType             ConnectionInfo ConnectionListener Content ContentDelegate ContentIterator
+syntax keyword  monkeyCType             ContentMetadata ContentRef ContentRefIterator Course CryptoConfig
+syntax keyword  monkeyCType             CurrentConditions CustomButton CustomMenu CustomMenuItem DailyForecast
+syntax keyword  monkeyCType             DataField DataFieldAlert Dc DerailleurStatus Descriptor Device DeviceConfig
+syntax keyword  monkeyCType             DeviceListener DevicePairException DeviceSettings DeviceState Dictionary
+syntax keyword  monkeyCType             Double DragEvent Drawable Duration EncryptionInvalidSettingsException
+syntax keyword  monkeyCType             Exception ExitDataSizeLimitException Field Filter FirFilter FitnessEquipment
+syntax keyword  monkeyCType             FitnessEquipmentData FitnessEquipmentListener FitnessEquipmentMode FlickEvent
+syntax keyword  monkeyCType             Float FontReference FontResource GenericChannel GlanceView GlanceViewDelegate
+syntax keyword  monkeyCType             Gregorian GyroscopeData Hash HashBasedMessageAuthenticationCode HeartRateData
+syntax keyword  monkeyCType             HeartRateIterator HeartRateSample History HourlyForecast IconMenuItem Id
+syntax keyword  monkeyCType             IirFilter Info InputDelegate Intent InvalidBackgroundTimeException
+syntax keyword  monkeyCType             InvalidBitmapResourceException InvalidBlockSizeException
+syntax keyword  monkeyCType             InvalidHexStringException InvalidMenuItemTypeException InvalidOptionsException
+syntax keyword  monkeyCType             InvalidPaletteException InvalidPointException InvalidRequestException
+syntax keyword  monkeyCType             InvalidSelectableStateException InvalidValueException Iterator Key
+syntax keyword  monkeyCType             KeyAgreement KeyEvent KeyPair Layer LightNetwork LightNetworkListener
+syntax keyword  monkeyCType             LocalMoment Location Logger Long MagnetometerData MailboxIterator
+syntax keyword  monkeyCType             ManufacturerInfo MapMarker MapPolyline MapTrackView MapView Menu
+syntax keyword  monkeyCType             MenuInputDelegate MenuItem Message MessageSizeLimitException Method Moment
+syntax keyword  monkeyCType             Number NumberPicker NumberPickerDelegate OAuthMessage Object
+syntax keyword  monkeyCType             ObjectStoreAccessException OperationNotAllowedException PedalPowerBalance
+syntax keyword  monkeyCType             PhoneAppMessage Picker PickerDelegate PickerFactory PlaybackProfile
+syntax keyword  monkeyCType             PlayerColors PreviousOperationNotCompleteException ProductInfo Profile
+syntax keyword  monkeyCType             ProfileInfo ProfileRegistrationException ProgressBar Properties
+syntax keyword  monkeyCType             ProviderIconInfo RadarTarget RealTimeClockNotValidException ResistanceSettings
+syntax keyword  monkeyCType             ResourceReference ReviewResponseToken Route RunningDynamics
+syntax keyword  monkeyCType             RunningDynamicsData RunningDynamicsListener ScanResult Selectable
+syntax keyword  monkeyCType             SelectableEvent SensorData SensorHistoryIterator SensorInfo SensorInfoIterator
+syntax keyword  monkeyCType             SensorLogger SensorLoggingStats SensorPosition SensorSample
+syntax keyword  monkeyCType             SerializationException Service ServiceDelegate Session Shifting
+syntax keyword  monkeyCType             ShiftingListener ShiftingStatus SimpleDataField SimulationSettings Stats
+syntax keyword  monkeyCType             Storage StorageFullException String SwipeEvent Symbol
+syntax keyword  monkeyCType             SymbolNotAllowedException SyncDelegate SystemButton TargetPowerSettings Text
+syntax keyword  monkeyCType             TextArea TextPicker TextPickerDelegate Timer ToggleMenuItem ToneProfile
+syntax keyword  monkeyCType             TooManySensorDataListenersException TorqueEffectivenessPedalSmoothness Track
+syntax keyword  monkeyCType             UnableToAcquireChannelException UnableToAcquireEncryptedChannelException
+syntax keyword  monkeyCType             UnexpectedAppTypeException UnexpectedTypeException UserActivity
+syntax keyword  monkeyCType             UserActivityHistoryIterator UserSettings Uuid UuidFormatException
+syntax keyword  monkeyCType             ValueOutOfBoundsException VectorFont VibeProfile View ViewLoop
+syntax keyword  monkeyCType             ViewLoopDelegate ViewLoopFactory WatchFace WatchFaceDelegate
+syntax keyword  monkeyCType             WatchFacePowerInfo Waypoint WeakReference Workout WorkoutIntervalStep
+syntax keyword  monkeyCType             WorkoutStep WorkoutStepInfo Menu2 Menu2InputDelegate
 
 
 syntax keyword	monkeyCConstant		COLOR_WHITE COLOR_LT_GRAY COLOR_DK_GRAY COLOR_BLACK COLOR_RED COLOR_DK_RED COLOR_ORANGE COLOR_YELLOW COLOR_GREEN COLOR_DK_GREEN COLOR_BLUE COLOR_DK_BLUE COLOR_PURPLE COLOR_PINK COLOR_TRANSPARENT
