@@ -85,6 +85,138 @@ syntax keyword  monkeyCType             ViewLoopDelegate ViewLoopFactory WatchFa
 syntax keyword  monkeyCType             WatchFacePowerInfo Waypoint WeakReference Workout WorkoutIntervalStep
 syntax keyword  monkeyCType             WorkoutStep WorkoutStepInfo Menu2 Menu2InputDelegate
 
+" Toybox instance functions
+syntax keyword monkeyCFunction          abs acos add addAll addItem addKey addLap addLayer addLocation
+syntax keyword monkeyCFunction          allowTrialMessage animate apply asin assert assertEqual assertEqualMessage
+syntax keyword monkeyCFunction          assertMessage assertNotEqual assertNotEqualMessage atan atan2 backlight
+syntax keyword monkeyCFunction          canSkip cancelAllAnimations cancelAllRequests cccdUuid ceil changeView
+syntax keyword monkeyCFunction          charArrayToString checkWifiConnection clear clearClip clearLayers
+syntax keyword monkeyCFunction          clearProperties clearValues close compare compute concatenate controlEquipment
+syntax keyword monkeyCFunction          convertEncodedString cos createBoundingBox createBufferedBitmap createColor
+syntax keyword monkeyCFunction          createField createPublicKey createSession debug decodeNumber decrypt
+syntax keyword monkeyCFunction          deleteActivityCompletedEvent deleteCachedItem deleteGoalEvent deleteItem
+syntax keyword monkeyCFunction          deleteOAuthResponseEvent deletePhoneAppMessageEvent deleteProperty
+syntax keyword monkeyCFunction          deletePushNotificationEvent deleteSleepEvent deleteStepsEvent
+syntax keyword monkeyCFunction          deleteTemporalEvent deleteValue deleteWakeEvent digest disableEncryption
+syntax keyword monkeyCFunction          disableSensorType discard divide draw drawAngledText drawArc drawBitmap
+syntax keyword monkeyCFunction          drawBitmap2 drawCircle drawEllipse drawFooter drawForeground drawLine
+syntax keyword monkeyCFunction          drawOffsetBitmap drawPoint drawRadialText drawRectangle drawRoundedRectangle
+syntax keyword monkeyCFunction          drawScaledBitmap drawText drawTitle duration emptyMailbox enableEncryption
+syntax keyword monkeyCFunction          enableLocationEvents enableSensorEvents enableSensorType encodeBase64
+syntax keyword monkeyCFunction          encodeNumber encodeURL encrypt equals error exit exitTo fillCircle fillEllipse
+syntax keyword monkeyCFunction          fillPolygon fillRectangle fillRoundedRectangle find findDrawableById
+syntax keyword monkeyCFunction          findItemById fitTextToArea floor format generateSecret
+syntax keyword monkeyCFunction          generateSignedOAuthHeader get getActivityCompletedEventRegistered
+syntax keyword monkeyCFunction          getActivityInfo getApp getAppCourses getAppRoutes getAppTracks getAppWaypoints
+syntax keyword monkeyCFunction          getAppWorkouts getAppearance getAvailableConnectionCount getBackgroundColor
+syntax keyword monkeyCFunction          getBackgroundData getBatteryStatus getBikeLights getBodyBatteryHistory
+syntax keyword monkeyCFunction          getBytes getCacheStatistics getCachedContentObj getCadenceInfo
+syntax keyword monkeyCFunction          getCalculatedCadence getCalculatedPower getCalculatedWheelDistance
+syntax keyword monkeyCFunction          getCalculatedWheelSpeed getCapableModes getCharacteristic getCharacteristics
+syntax keyword monkeyCFunction          getClockTime getColorDepth getComplication getComplications
+syntax keyword monkeyCFunction          getComponentIdentifiers getContentDelegate getContentIterator getContentRef
+syntax keyword monkeyCFunction          getContentRefIter getContentType getCoordinates getCourses
+syntax keyword monkeyCFunction          getCurrentConditions getCurrentSport getCurrentTime getCurrentView
+syntax keyword monkeyCFunction          getCurrentWorkoutStep getDailyForecast getDaylightSavingsTimeOffset getDc
+syntax keyword monkeyCFunction          getDescriptor getDescriptors getDeterminant getDevice getDeviceConfig
+syntax keyword monkeyCFunction          getDeviceName getDeviceSettings getDeviceState getDimensions getDirection
+syntax keyword monkeyCFunction          getDistance getDrawable getElevationHistory getEquipmentData getErrorMessage
+syntax keyword monkeyCFunction          getFontAscent getFontDescent getFontHeight getFrameRate getGlanceTheme
+syntax keyword monkeyCFunction          getGlanceView getGoalEventRegistered getGoalView getHeartRateHistory
+syntax keyword monkeyCFunction          getHeartRateZones getHeight getHistory getHourlyForecast getIcon getId
+syntax keyword monkeyCFunction          getImage getInfo getInitialView getInstance getItem getKey getLabel
+syntax keyword monkeyCFunction          getLastTemporalEventTime getLayerIndex getLayers getLocation getMailbox
+syntax keyword monkeyCFunction          getManufacturerInfo getManufacturerSpecificData
+syntax keyword monkeyCFunction          getManufacturerSpecificDataIterator getMapMode getMatrix getMax
+syntax keyword monkeyCFunction          getMaxSampleRate getMetadata getMin getName getNetworkMode getNetworkState
+syntax keyword monkeyCFunction          getNewestSampleTime getNextWorkoutStep getNumberOfFrames
+syntax keyword monkeyCFunction          getOAuthResponseEventRegistered getObscurityFlags getOffset
+syntax keyword monkeyCFunction          getOldestSampleTime getOxygenSaturationHistory getPairedDevices getPalette
+syntax keyword monkeyCFunction          getPayload getPedalPowerBalance getPhoneAppMessageEventRegistered
+syntax keyword monkeyCFunction          getPlaybackConfigurationView getPlaybackProfile getPlaybackStartPosition
+syntax keyword monkeyCFunction          getPressureHistory getPreviousState getPrivateKey getProductInfo getProfile
+syntax keyword monkeyCFunction          getProfileInfo getProjectedLocation getProperty getProviderIconInfo
+syntax keyword monkeyCFunction          getPublicKey getPushNotificationEventRegistered getRadarInfo getRawData
+syntax keyword monkeyCFunction          getRegisteredSensors getResistanceSettings getResource getRoutes getRssi
+syntax keyword monkeyCFunction          getRunningDynamics getSensorPosition getService getServiceData
+syntax keyword monkeyCFunction          getServiceDelegate getServiceUuids getServices getSettingsView
+syntax keyword monkeyCFunction          getShiftingStatus getSimulationSettings getSize getSleepEventRegistered
+syntax keyword monkeyCFunction          getSpeedCadenceInfo getSpeedInfo getState getStats getStats2
+syntax keyword monkeyCFunction          getStepsEventRegistered getStressHistory getSubLabel getSubscreen getSunrise
+syntax keyword monkeyCFunction          getSunset getSyncConfigurationView getSyncDelegate getSystemStats
+syntax keyword monkeyCFunction          getTargetPowerSettings getTemperatureHistory getTemporalEventRegisteredTime
+syntax keyword monkeyCFunction          getText getTextDimensions getTextWidthInPixels getTimeZoneOffset getTimer
+syntax keyword monkeyCFunction          getTorqueEffectivenessPedalSmoothness getTracks getTrainerMode
+syntax keyword monkeyCFunction          getTrialDaysRemaining getType getUserActivityHistory getUserSettings getUuid
+syntax keyword monkeyCFunction          getValue getVectorFont getVelocity getView getWakeEventRegistered getWaypoints
+syntax keyword monkeyCFunction          getWidth getWorkouts getX getY greaterThan hasAddress hasConfigurationSupport
+syntax keyword monkeyCFunction          hasFlashlightColor hasKey hashCode indexOf info initialize insertLayer invert
+syntax keyword monkeyCFunction          invoke isAppInstalled isBackgroundScanEnabled isCached isChecked isConnected
+syntax keyword monkeyCFunction          isDaylightSavingsTime isEmpty isEnabled isFocused isRecording isSameDevice
+syntax keyword monkeyCFunction          isSelected isSyncNeeded isTrial isVisible keys length lessThan ln
+syntax keyword monkeyCFunction          loadProperties loadResource localMoment log longToUuid makeImageRequest
+syntax keyword monkeyCFunction          makeJsonRequest makeOAuthRequest makeReviewTokenRequest makeWebRequest mean
+syntax keyword monkeyCFunction          method mode moment multiply next notifySyncComplete notifySyncProgress now
+syntax keyword monkeyCFunction          numLocations onAccept onActivityCompleted onAdAction onAnimationEvent
+syntax keyword monkeyCFunction          onAppInstall onAppUpdate onAuthenticationRequest onBack onBackgroundData
+syntax keyword monkeyCFunction          onBatteryStatusUpdate onBikeCadenceUpdate onBikeLightUpdate onBikeRadarUpdate
+syntax keyword monkeyCFunction          onBikeSpeedCadenceUpdate onBikeSpeedUpdate onCalculatedCadenceUpdate
+syntax keyword monkeyCFunction          onCalculatedPowerUpdate onCalculatedWheelDistanceUpdate
+syntax keyword monkeyCFunction          onCalculatedWheelSpeedUpdate onCancel onCharacteristicChanged
+syntax keyword monkeyCFunction          onCharacteristicRead onCharacteristicWrite onComplete onConnectedStateChanged
+syntax keyword monkeyCFunction          onCustomButton onDescriptorRead onDescriptorWrite onDeviceStateUpdate onDone
+syntax keyword monkeyCFunction          onDrag onEnterSleep onError onExitSleep onFitnessEquipmentUpdate onFlick
+syntax keyword monkeyCFunction          onFooter onGlanceEvent onGoalReached onHide onHold onKey onKeyPressed
+syntax keyword monkeyCFunction          onKeyReleased onLayout onLightNetworkStateUpdate onManufacturerInfoUpdate
+syntax keyword monkeyCFunction          onMenu onMenuItem onMessage onNextMode onNextMultisportLeg onNextPage
+syntax keyword monkeyCFunction          onNextView onNightModeChanged onNumberPicked onOAuthResponse onPartialUpdate
+syntax keyword monkeyCFunction          onPedalPowerBalanceUpdate onPhoneAppMessage onPowerBudgetExceeded onPress
+syntax keyword monkeyCFunction          onPreviousMode onPreviousPage onPreviousView onProductInfoUpdate
+syntax keyword monkeyCFunction          onProfileRegister onReceiveComplete onReceiveFail onRelease onRepeat
+syntax keyword monkeyCFunction          onResponse onRunningDynamicsUpdate onScanResults onScanStateChange onSelect
+syntax keyword monkeyCFunction          onSelectable onSensorPositionUpdate onSentMessage onSettingsChanged
+syntax keyword monkeyCFunction          onShiftingUpdate onShow onShuffle onSleepTime onSong onStart onStartSync
+syntax keyword monkeyCFunction          onSteps onStop onStopSync onStorageChanged onSwipe onTap onTemporalEvent
+syntax keyword monkeyCFunction          onTextEntered onThumbsDown onThumbsUp onTimerLap onTimerPause onTimerReset
+syntax keyword monkeyCFunction          onTimerResume onTimerStart onTimerStop onTitle
+syntax keyword monkeyCFunction          onTorqueEffectivenessPedalSmoothnessUpdate onTransmitComplete onTransmitFail
+syntax keyword monkeyCFunction          onUpdate onValidateProperty onWakeTime onWorkoutStarted onWorkoutStepComplete
+syntax keyword monkeyCFunction          onWrap open openAppSettingsEditor openWebPage pairDevice parse peekNext
+syntax keyword monkeyCFunction          peekPrevious persistLocation play playTone popView pow preConcatenate previous
+syntax keyword monkeyCFunction          print printStackTrace println pushView put rand randomBytes
+syntax keyword monkeyCFunction          registerComplicationChangeCallback registerForActivityCompletedEvent
+syntax keyword monkeyCFunction          registerForGoalEvent registerForOAuthMessages registerForOAuthResponseEvent
+syntax keyword monkeyCFunction          registerForPhoneAppMessageEvent registerForPhoneAppMessages
+syntax keyword monkeyCFunction          registerForPushNotificationEvent registerForSleepEvent registerForStepsEvent
+syntax keyword monkeyCFunction          registerForTemporalEvent registerForWakeEvent registerProfile
+syntax keyword monkeyCFunction          registerSensorDataListener release remove removeAll removeLayer repeatMode
+syntax keyword monkeyCFunction          requestApplicationWake requestPlaybackProfileUpdate requestRead requestUpdate
+syntax keyword monkeyCFunction          requestWrite resetContentCache resetContentIterator
+syntax keyword monkeyCFunction          restoreHeadlightsNetworkModeControl restoreTaillightsNetworkModeControl
+syntax keyword monkeyCFunction          reverse rotate round save saveProperties saveWaypoint scale sendAcknowledge
+syntax keyword monkeyCFunction          sendBroadcast sendBurst sendManufacturerMessage sendPageRequest setAlbumArt
+syntax keyword monkeyCFunction          setAntiAlias setBackgroundColor setBackgroundScan setBitmap setBlendMode
+syntax keyword monkeyCFunction          setBurstListener setChecked setClip setClockHandPosition setColor
+syntax keyword monkeyCFunction          setControlBar setData setDelegate setDeviceConfig setDisplayString setDrawable
+syntax keyword monkeyCFunction          setEnabled setEnabledSensors setFill setFlashlightMode setFocus setFont
+syntax keyword monkeyCFunction          setFooter setForeground setHeadlightsMode setIcon setJustification
+syntax keyword monkeyCFunction          setKeyToSelectableInteraction setLabel setLayout setLocation
+syntax keyword monkeyCFunction          setMailboxListener setMapMarker setMapMode setMapVisibleArea setMatrix
+syntax keyword monkeyCFunction          setMetadata setMode setOffset setOptions setPalette setPayload setPenWidth
+syntax keyword monkeyCFunction          setPolyline setProgress setProperty setScanState setScreenVisibleArea setSize
+syntax keyword monkeyCFunction          setState setStroke setSubLabel setTaillightsMode setText setTheme
+syntax keyword monkeyCFunction          setTimerEventListener setTitle setToRotation setToScale setToShear
+syntax keyword monkeyCFunction          setToTranslation setTrainerMode setValue setVisible setWidth setX setY shear
+syntax keyword monkeyCFunction          showActionMenu showAlert showToast shuffling sin size slice sqrt srand start
+syntax keyword monkeyCFunction          startPlayback startSync startSync2 startUserReview stdev stillAlive stop
+syntax keyword monkeyCFunction          stopPlayback stringToUuid subscribeToUpdates substring subtract switchToView
+syntax keyword monkeyCFunction          tan toByteArray toChar toCharArray toDegrees toDouble toFloat toGeoString
+syntax keyword monkeyCFunction          toIntent toLong toLongWithBase toLower toMoment toNumber toNumberWithBase
+syntax keyword monkeyCFunction          toRadians toString toUpper toUtf8Array today toggleSignalLight transformPoint
+syntax keyword monkeyCFunction          transformPoints translate transmit unpairDevice unregisterSensorDataListener
+syntax keyword monkeyCFunction          unsubscribeFromAllUpdates unsubscribeFromUpdates update updateComplication
+syntax keyword monkeyCFunction          updateItem utcInfo utf8ArrayToString validateProperty value values variance
+syntax keyword monkeyCFunction          vibrate warning weak 
 
 syntax keyword	monkeyCConstant		COLOR_WHITE COLOR_LT_GRAY COLOR_DK_GRAY COLOR_BLACK COLOR_RED COLOR_DK_RED COLOR_ORANGE COLOR_YELLOW COLOR_GREEN COLOR_DK_GREEN COLOR_BLUE COLOR_DK_BLUE COLOR_PURPLE COLOR_PINK COLOR_TRANSPARENT
 syntax keyword	monkeyCConstant		FONT_XTINY FONT_TINY FONT_SMALL FONT_MEDIUM FONT_LARGE FONT_NUMBER_MILD FONT_NUMBER_MEDIUM FONT_NUMBER_HOT FONT_NUMBER_THAI_HOT FONT_SYSTEM_XTINY FONT_SYSTEM_TINY FONT_SYSTEM_SMALL FONT_SYSTEM_MEDIUM FONT_SYSTEM_LARGE FONT_SYSTEM_NUMBER_MILD FONT_SYSTEM_NUMBER_MEDIUM FONT_SYSTEM_NUMBER_HOT FONT_SYSTEM_NUMBER_THAI_HOT
