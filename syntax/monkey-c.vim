@@ -218,6 +218,66 @@ syntax keyword monkeyCFunction          unsubscribeFromAllUpdates unsubscribeFro
 syntax keyword monkeyCFunction          updateItem utcInfo utf8ArrayToString validateProperty value values variance
 syntax keyword monkeyCFunction          vibrate warning weak 
 
+" Toybox variables
+syntax keyword monkeyCIdentifier        accel accelerometerData accuracy activeMinutes activeMinutesDay
+syntax keyword monkeyCIdentifier        activeMinutesWeek activeMinutesWeekGoal activeStep activityClass
+syntax keyword monkeyCIdentifier        activityTrackingOn alarmCount album altitude ambientPressure arguments artist
+syntax keyword monkeyCIdentifier        attemptSkipAfterThumbsDown averageCadence averageDistance averageHeartRate
+syntax keyword monkeyCIdentifier        averagePower averageRestingHeartRate averageSpeed background backgroundColor
+syntax keyword monkeyCIdentifier        basicResistance basicResistanceSupported battery batteryInDays batteryStatus
+syntax keyword monkeyCIdentifier        batteryVoltage bearing bearingFromStart behavior bikeWeight birthYear bitRate
+syntax keyword monkeyCIdentifier        bodyLocation cadence calories capacity channelType charging complicationId
+syntax keyword monkeyCIdentifier        condition connectionAvailable connectionInfo currentCadence currentHeading
+syntax keyword monkeyCIdentifier        currentHeartRate currentLocation currentLocationAccuracy
+syntax keyword monkeyCIdentifier        currentOxygenSaturation currentPower currentSpeed data day decimationRate
+syntax keyword monkeyCIdentifier        deviceNumber deviceType distance distanceToDestination distanceToNextPoint
+syntax keyword monkeyCIdentifier        distanceUnits doNotDisturb draftFactor dst duration durationType durationValue
+syntax keyword monkeyCIdentifier        dutyCycle elapsedDistance elapsedTime elevationAtDestination
+syntax keyword monkeyCIdentifier        elevationAtNextPoint elevationUnits enabled encryptionId encryptionKey
+syntax keyword monkeyCIdentifier        energyExpenditure executionTimeAverage executionTimeLimit feDistance
+syntax keyword monkeyCIdentifier        feHeartRate feSpeed feelsLikeTemperature firmwareVersion firstDayOfWeek
+syntax keyword monkeyCIdentifier        floorsClimbed floorsClimbedGoal floorsDescended forecastTime foregroundColor
+syntax keyword monkeyCIdentifier        freeMemory frequency frontDerailleur frontDerailleurIndex frontDerailleurMax
+syntax keyword monkeyCIdentifier        frontDerailleurSize gearIndex gearMax gearRatio gearSize gender genre
+syntax keyword monkeyCIdentifier        groundContactBalance groundContactTime gyroscopeData heading
+syntax keyword monkeyCIdentifier        heartBeatIntervals heartRate heartRateData height heightUnits highTemperature
+syntax keyword monkeyCIdentifier        highlightBorderColor highlightFillColor hour hwRevision identifier
+syntax keyword monkeyCIdentifier        inputButtons intensity invalidInboardShiftCount invalidOutboardShiftCount
+syntax keyword monkeyCIdentifier        is24Hour isGlanceModeEnabled isNightModeEnabled isSleepMode isTouchScreen
+syntax keyword monkeyCIdentifier        isVisible label leftOrCombinedPedalSmoothness leftTorqueEffectiveness length
+syntax keyword monkeyCIdentifier        locX locY longLabel lowTemperature mag magnetometerData manufacturerId
+syntax keyword monkeyCIdentifier        maxCadence maxHeartRate maxPower maxSpeed meanSeaLevelPressure messageId
+syntax keyword monkeyCIdentifier        messagePeriod metersClimbed metersDescended min mode modelNumber moderate
+syntax keyword monkeyCIdentifier        monkeyVersion month moveBarLevel name nameOfDestination nameOfNextPoint
+syntax keyword monkeyCIdentifier        network networkKey128Bit networkKey64Bit notes notificationCount numChannels
+syntax keyword monkeyCIdentifier        numComponents observationLocationName observationLocationPosition
+syntax keyword monkeyCIdentifier        observationTime offCourseDistance operatingTime orientation oxygenSaturation
+syntax keyword monkeyCIdentifier        paceUnits partNumber pedalPowerPercent phoneConnected pitch playbackControls
+syntax keyword monkeyCIdentifier        playbackNotificationThreshold playerColors position power powerSensorType
+syntax keyword monkeyCIdentifier        precipitationChance pressure progressBarBackgroundColor
+syntax keyword monkeyCIdentifier        progressBarForegroundColor radioFrequency range ranges rawAmbientPressure
+syntax keyword monkeyCIdentifier        rearDerailleur rearDerailleurIndex rearDerailleurMax rearDerailleurSize
+syntax keyword monkeyCIdentifier        relativeHumidity repetitionNumber requirePlaybackNotification
+syntax keyword monkeyCIdentifier        requiresBurnInProtection respirationRate responseCode restStep
+syntax keyword monkeyCIdentifier        restingHeartRate rightPedalIndicator rightPedalSmoothness
+syntax keyword monkeyCIdentifier        rightTorqueEffectiveness roll rssi runningStepLength sampleCount samplePeriod
+syntax keyword monkeyCIdentifier        sampleRate screenHeight screenShape screenWidth searchThreshold
+syntax keyword monkeyCIdentifier        searchTimeoutHighPriority searchTimeoutLowPriority sec
+syntax keyword monkeyCIdentifier        separatePedalSmoothnessSupport serial shiftFailureCount shortLabel
+syntax keyword monkeyCIdentifier        simulationSupported size skipPreviousThreshold sleepTime slope softwareVersion
+syntax keyword monkeyCIdentifier        solarIntensity speed sport stanceTime startLocation startOfDay startTime state
+syntax keyword monkeyCIdentifier        stateDefault stateDisabled stateHighlighted stateSelected step stepCount
+syntax keyword monkeyCIdentifier        stepGoal stepLength steps subSport surfaceResistance swRevisionMain
+syntax keyword monkeyCIdentifier        swRevisionSupplemental swimStrokeType swimSwolf systemLanguage targetPower
+syntax keyword monkeyCIdentifier        targetPowerSupported targetType targetValueHigh targetValueLow technology
+syntax keyword monkeyCIdentifier        temperature temperatureUnits textColor threat threatSide timeToRecovery
+syntax keyword monkeyCIdentifier        timeZoneOffset timerState timerTime timestamp title tonesOn total totalAscent
+syntax keyword monkeyCIdentifier        totalDescent totalMemory track trackNumber trainingEffect transmissionType
+syntax keyword monkeyCIdentifier        type uniqueIdentifier unit uri usedMemory userInfoString userWeight value
+syntax keyword monkeyCIdentifier        verticalOscillation verticalRatio vibrateOn vigorous vo2maxCycling
+syntax keyword monkeyCIdentifier        vo2maxRunning wakeTime walkingFlag walkingStepLength weight weightUnits
+syntax keyword monkeyCIdentifier        wheelDiameter when width windBearing windResistance windSpeed x y year z 
+
 syntax keyword	monkeyCConstant		COLOR_WHITE COLOR_LT_GRAY COLOR_DK_GRAY COLOR_BLACK COLOR_RED COLOR_DK_RED COLOR_ORANGE COLOR_YELLOW COLOR_GREEN COLOR_DK_GREEN COLOR_BLUE COLOR_DK_BLUE COLOR_PURPLE COLOR_PINK COLOR_TRANSPARENT
 syntax keyword	monkeyCConstant		FONT_XTINY FONT_TINY FONT_SMALL FONT_MEDIUM FONT_LARGE FONT_NUMBER_MILD FONT_NUMBER_MEDIUM FONT_NUMBER_HOT FONT_NUMBER_THAI_HOT FONT_SYSTEM_XTINY FONT_SYSTEM_TINY FONT_SYSTEM_SMALL FONT_SYSTEM_MEDIUM FONT_SYSTEM_LARGE FONT_SYSTEM_NUMBER_MILD FONT_SYSTEM_NUMBER_MEDIUM FONT_SYSTEM_NUMBER_HOT FONT_SYSTEM_NUMBER_THAI_HOT
 syntax keyword	monkeyCConstant		TEXT_JUSTIFY_RIGHT TEXT_JUSTIFY_CENTER TEXT_JUSTIFY_LEFT TEXT_JUSTIFY_VCENTER
