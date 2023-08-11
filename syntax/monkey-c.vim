@@ -37,6 +37,7 @@ syntax match	monkeyCNumber		"\<\d\+[eE][-+]\=\d\+[fFdD]\=\>"
 syntax match	monkeyCNumber		"\<\d\+\([eE][-+]\=\d\+\)\=[fFdD]\>"
 syntax match	monkeyCLabel		":\w\+"
 syntax match	monkeyCComment		"\v//.*$"
+syntax region   monkeyCMultiLineComment start="/\*" end="\*/"
 
 highlight link	monkeyCString		String
 highlight link	monkeyCCharacter	Character
@@ -54,6 +55,7 @@ highlight link	monkeyCOperator		Operator
 highlight link	monkeyCNumber		Number
 highlight link	monkeyCLabel		Label
 highlight link	monkeyCComment		Comment
+highlight link monkeyCMultiLineComment  Comment
 
 let b:current_syntax = "monkey-c"
 
