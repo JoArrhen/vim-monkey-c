@@ -17,7 +17,7 @@ syntax keyword	monkeyCException	try catch finally throw
 syntax keyword	monkeyCRepeat           while for	
 
 syntax keyword	monkeyCType		Gfx Ui
-syntax keyword	monkeyCType		Array Dictionary Number Float Long Double String Boolean Void
+syntax keyword	monkeyCType		Array Dictionary Number Float Long Double String Boolean Void Null
 
 " Toybox.* Classes
 syntax keyword  monkeyCType             Activity ActivityMonitor ActivityRecording Ant AntPlus Application Attention Authentication
